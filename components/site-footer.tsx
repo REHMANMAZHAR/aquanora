@@ -15,11 +15,6 @@ export function SiteFooter() {
         </div>
         <div className="footer-bottom"><span>© {new Date().getFullYear()} Aquanora Smart. All rights reserved.</span><span>Discover. Understand. Grow.</span></div>
       </div>
-      <style jsx>{`
-        .footer-brand { font:600 1.2rem Georgia,serif; letter-spacing:.08em; color:#fff; }
-        .footer-brand span { color:#c6a56b; }
-        .footer-action { color:#c6a56b; font-weight:700; font-size:.88rem; }
-      `}</style>
     </footer>
   );
 }
