@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <section className="page-content"><div className="container" style={{textAlign:"center",padding:"80px 0"}}><span className="eyebrow">404 · Page not found</span><h1 className="serif" style={{fontSize:"3rem",color:"var(--navy)"}}>That page has wandered off.</h1><p className="muted">Let's take you back to somewhere useful.</p><Link href="/" className="btn btn-dark">Back to home</Link></div></section>; }
